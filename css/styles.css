@@ -6,13 +6,12 @@
 
 /* Gallery Stying */
 .gallery .control-button {
-  color: #ccc;
-  color: rgba(255, 255, 255, 0.4);
+   color: black;
 }
 
 .gallery .control-button:hover {
-  color: white;
-  color: rgba(255, 255, 255, 0.8);
+  color: black;
+  
 }
 
 /*
@@ -40,6 +39,13 @@
   border: 1px solid #FA665A;
   border-radius: 50%;
 }
+.gallery .controls img:hover {
+  border: 1px solid #FA665A;
+  border-radius: 50%;
+  -webkit-transform: scale(2);
+}
+
+
 
 .gallery .control-button {
   display: inline-block;
