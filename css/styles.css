@@ -37,7 +37,8 @@
 }
 
 .gallery .controls img {
-  border: 5px solid #FA665A;
+  border: 1px solid #FA665A;
+  border-radius: 50%;
 }
 
 .gallery .control-button {
@@ -50,7 +51,3 @@
 }
 
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
-}
